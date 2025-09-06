@@ -1,0 +1,17 @@
+{
+  "name": "evm_chain_history",
+  "version": "1.0.0",
+  "description": "Fetch, process, and export transaction history from EVM-compatible blockchains",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alchemy-sdk": "^3.6.3",
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.2",
+    "p-map": "^4.0.0"
+  }
+}
