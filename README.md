@@ -47,12 +47,9 @@ Arguments
 
 --address <0x...> (required) → Ethereum wallet address
 
---out <filename.csv> (optional) → Output CSV file (default: out.csv)
-
 Example
 node export-eth-history.js \
-  --address 0xa39b189482f984388a34460636fea9eb181ad1a6 \
-  --out my_wallet_history.csv
+  --address 0xa39b189482f984388a34460636fea9eb181ad1a6
 
 📊 CSV Output
 
@@ -105,4 +102,4 @@ DEFAULT_TO_BLOCK = latest
 
 DEFAULT_MAX_PER_PAGE = 1000
 
-DEFAULT_CONCURRENCY = 20
+DEFAULT_CONCURRENCY = 1000
